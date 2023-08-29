@@ -1,0 +1,92 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+#search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#search-input {
+  width: 60%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.repository {
+  width: 30%;
+  background-color: #f1f1f1;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.repository h3 {
+  margin-top: 0;
+}
+
+.paper {
+  margin-bottom: 20px;
+}
+
+.paper h4 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.paper p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.article {
+  font-size: 14px;
+}
+
+.repository h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+footer {
+  margin: auto;
+  margin-top: 700px;
+}
+footer p {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer span {
+  color: #6d9df7;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.arxivTitleLink {
+  font-weight: bold;
+}
