@@ -82,11 +82,7 @@ serverapp.get("/search", async function (req, res) {
       url: `https://www.ncbi.nlm.nih.gov/pmc/?term=${query}`,
       title: "NCBI PMC",
     },
-    // {
-    //   url: `https://scholar.google.com/scholar?q=${query}+pdf`,
-    //   // url: `https://www.google.com/search?q=${query}+pdf`,
-    //   title: "PDF Search",
-    // },
+
   ];
 
   try {
