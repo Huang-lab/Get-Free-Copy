@@ -21,7 +21,7 @@ serverapp.use(express.static(path.join(__dirname, "./public")));
 serverapp.get("/data", async (req, res) => {
   const query = req.query.q;
   try {
-    const search = new SerpApi.GoogleSearch("97c3a287fbc05bb6873ba733dbbe1ac40d08bf3363528ada2df69f06cb714601");
+    const search = new SerpApi.GoogleSearch("Your_Private_Key");
 
     const params = {
     engine: "google_scholar",
