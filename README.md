@@ -39,4 +39,4 @@ The main developer: Nodir Kosimkhujaev
 
 
 Website: [https://www.getfreecopy.com]
-Contact: huangkuanlin@gmail.com
+
